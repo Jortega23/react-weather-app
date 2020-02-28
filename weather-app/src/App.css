@@ -9,9 +9,14 @@ body {
 .wrapper {
   background: linear-gradient(to right, #e67e22, #e74c3c);
   height: 100vh;
-  display: flex;
+ 
   justify-content: center;
   align-items: center;
+}
+.row{
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .main {
@@ -97,6 +102,7 @@ button:active {
 }
 
 .weather__info {
+  color: white;
   width: 60%;
   font-size: 20px;
   font-weight: 200;
